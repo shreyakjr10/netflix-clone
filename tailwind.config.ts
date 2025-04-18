@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Netflix colors
+				'netflix-red': '#E50914',
+				'netflix-red-dark': '#B81D24',
+				'netflix-black': '#141414',
+				'netflix-grey': '#808080',
+				'netflix-white': '#FFFFFF',
+				'netflix-light-grey': '#E5E5E5',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

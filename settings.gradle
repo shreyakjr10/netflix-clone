@@ -1,0 +1,9 @@
+
+rootProject.name = 'netflix-clone'
+
+include 'discovery-service'
+include 'api-gateway'
+include 'auth-service'
+include 'content-service'
+include 'subscription-service'
+include 'frontend'

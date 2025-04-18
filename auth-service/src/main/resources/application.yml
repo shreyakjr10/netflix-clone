@@ -1,0 +1,19 @@
+
+server:
+  port: 8081
+
+spring:
+  application:
+    name: auth-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/netflix_auth
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+jwt:
+  secret: 'verySecretKey123!verySecretKey123!verySecretKey123!'
+  expiration: 86400000  # 24 hours in milliseconds
